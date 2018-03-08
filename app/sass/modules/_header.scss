@@ -41,12 +41,16 @@
       }
       h1 {
         font-size: 45px;
+        padding-bottom: 25px;
       }
       h1, h6 {
         text-transform: uppercase;
         color: #ff3d42;
         font-weight: bold;
       }
+      h1, h6, p {
+        margin: 0;
+      } 
       .main_description {
         text-transform: uppercase;
         font-size: 25px;
@@ -65,9 +69,10 @@
       }
       h6 {
         font-size: 25px;
+        padding-bottom: 20px;
       }
       .booking_exp {
-        padding-bottom: 125px;
+        padding-bottom: 105px;
       }
     }
   }

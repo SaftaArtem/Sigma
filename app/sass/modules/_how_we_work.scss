@@ -1,5 +1,6 @@
 .how__we__work {
   padding-top: 100px;
+  padding-bottom: 170px;
   h1 {
     color: #102c3a;
     font-weight: bold;
@@ -10,12 +11,44 @@
   }
 
   .how__we__work__desc {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     p{
       color: black;
       font-size: 12px;
       margin: 0;
+      padding-bottom: 20px;
     }  
   }
+  .imgs_descr {
+    h4 {
+      color: #ff3d42;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 20px;
+      height: 44px;
+      margin-bottom: 44px;
+    }
+    p {
+      color: #aaa;
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+  .col-lg-3 {
+    overflow: hidden;
+    .imgs {
+      height: 50px;
+      margin-bottom: 50px;
+    }
+    .col-4 {
+      align-self: center;
+      overflow: hidden;
+      padding: 0;
+    }
+    .dot {
+      align-self: center;
+    }
+  }
+  
     
 }

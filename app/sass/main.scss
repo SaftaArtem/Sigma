@@ -1,3 +1,5 @@
-@import "modules/_header";
-@import "modules/_how_we_work";
-
+@import "modules/_header.scss";
+@import "modules/_how_we_work.scss";
+body {
+  font-family: 'Open Sans';
+}

@@ -26,11 +26,14 @@
   .header .container .main .main-logo {
     padding-bottom: 130px; }
   .header .container .main h1 {
-    font-size: 45px; }
+    font-size: 45px;
+    padding-bottom: 25px; }
   .header .container .main h1, .header .container .main h6 {
     text-transform: uppercase;
     color: #ff3d42;
     font-weight: bold; }
+  .header .container .main h1, .header .container .main h6, .header .container .main p {
+    margin: 0; }
   .header .container .main .main_description {
     text-transform: uppercase;
     font-size: 25px;
@@ -45,9 +48,10 @@
     color: #102c3a;
     padding-bottom: 25px; }
   .header .container .main h6 {
-    font-size: 25px; }
+    font-size: 25px;
+    padding-bottom: 20px; }
   .header .container .main .booking_exp {
-    padding-bottom: 125px; }
+    padding-bottom: 105px; }
 
 .wireframing {
   background-color: #269; }
@@ -71,7 +75,8 @@ p {
   background-color: #269; }
 
 .how__we__work {
-  padding-top: 100px; }
+  padding-top: 100px;
+  padding-bottom: 170px; }
   .how__we__work h1 {
     color: #102c3a;
     font-weight: bold;
@@ -80,8 +85,38 @@ p {
     padding-bottom: 50px;
     margin: 0; }
   .how__we__work .how__we__work__desc {
-    padding-bottom: 50px; }
+    padding-bottom: 30px; }
     .how__we__work .how__we__work__desc p {
       color: black;
       font-size: 12px;
-      margin: 0; }
+      margin: 0;
+      padding-bottom: 20px; }
+  .how__we__work .imgs_descr h4 {
+    color: #ff3d42;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    height: 44px;
+    margin-bottom: 44px; }
+  .how__we__work .imgs_descr p {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0; }
+  .how__we__work .col-lg-3 {
+    overflow: hidden; }
+    .how__we__work .col-lg-3 .imgs {
+      height: 50px;
+      margin-bottom: 50px; }
+    .how__we__work .col-lg-3 .col-4 {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+      overflow: hidden;
+      padding: 0; }
+    .how__we__work .col-lg-3 .dot {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center; }
+
+body {
+  font-family: 'Open Sans'; }
