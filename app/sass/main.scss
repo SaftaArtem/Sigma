@@ -1,5 +1,135 @@
 @import "modules/_header.scss";
 @import "modules/_how_we_work.scss";
+@import "modules/_wireframing.scss";
 body {
   font-family: 'Open Sans';
 }
+.wireframing {
+  padding: 100px 0 160px 0;
+  background-color: #0275ea;
+  background-image: linear-gradient(rgba(255, 255, 255, .2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .2) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, .1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
+  background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+  h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p {
+    font-size: 15px;
+  }
+  h3, p {
+    margin-left: 110px;
+    color: white;
+    width: 450px;
+  }
+  
+  .desk_hide
+   {
+    display: none;
+  }
+  .desk_hide {
+    display: none;
+  }
+  .first_row {
+    
+    .col-md-8, .col-md-4 {
+      padding: 0;
+    }
+  }
+  .sec_row {
+    margin-bottom: 80px;
+    .col-lg-4 {
+      padding: 0;
+    }
+  }
+  .last_row {
+    .col-lg-6 {
+      padding: 0;
+    }
+  }
+  .third_row {
+    .col-lg-12 {
+      padding: 0;
+    }
+  }
+  .wrap {
+    height: 200px;
+   /*  border: solid 2px; */
+    .head {
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      .arr_l {
+        padding-left: 20px;
+        align-self: center;
+      }
+    }
+    .arr_d {
+      padding-left: 225px;
+    } 
+  } 
+}
+.mockups {
+  margin: 160px 0;
+  padding-right: 15px;
+  h6 {
+    margin-top: 10px;
+    color: #ff3d42;
+    font-weight: bold;
+    font-size: 28 px;
+    text-transform: uppercase;
+  }
+  h6, p {
+    padding-left: 82px;
+  }
+  .col-lg-7, .col-lg-5 {
+    padding: 0;
+  }
+  p {
+    font-size: 20px;
+  }
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .ticket_info {
+    .ticket_desk {
+      font-size: 15px;
+    }
+    .col-lg-4 {
+      align-self: center;
+    }
+  }
+}
+.footer {
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .mockups {
+    h6, p {
+      padding: 0;
+    }
+  }
+  .wireframing {
+   .tab_hide {
+      display: none;
+    }
+
+    .desk_hide {
+      display: block;
+    } 
+  }
+}
+@media screen and (max-width: 768px) {
+  .wireframing {
+    
+  }
+}
+
