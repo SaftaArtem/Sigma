@@ -63,6 +63,8 @@
     font-size: 35px;
     padding-bottom: 50px;
     margin: 0; }
+  .how__we__work .line-hide-desk {
+    display: none; }
   .how__we__work .how__we__work__desc {
     padding-bottom: 30px; }
     .how__we__work .how__we__work__desc p {
@@ -98,18 +100,6 @@
               align-self: center; }
 
 .wireframing {
-  background-color: #0275ea;
-  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(left, rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  -webkit-background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
-          background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
-  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px; }
-
-body {
-  font-family: 'Open Sans'; }
-
-.wireframing {
   padding: 100px 0 160px 0;
   background-color: #0275ea;
   background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
@@ -118,6 +108,9 @@ body {
   -webkit-background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
           background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
   background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px; }
+  .wireframing .container {
+    margin-right: 100px;
+    padding-right: 110px; }
   .wireframing h3 {
     font-size: 40px;
     text-transform: uppercase;
@@ -128,41 +121,24 @@ body {
     margin-left: 110px;
     color: white;
     width: 450px; }
-  .wireframing .desk_hide {
+  .wireframing .row .desktop-hide {
     display: none; }
-  .wireframing .desk_hide {
+  .wireframing .row .wrap img {
+    max-width: 100%; }
+  .wireframing .row .arr_l,
+  .wireframing .row .arr_d {
     display: none; }
-  .wireframing .first_row .col-md-8, .wireframing .first_row .col-md-4 {
-    padding: 0; }
-  .wireframing .sec_row {
-    margin-bottom: 80px; }
-    .wireframing .sec_row .col-lg-4 {
-      padding: 0; }
-  .wireframing .last_row .col-lg-6 {
-    padding: 0; }
-  .wireframing .third_row .col-lg-12 {
-    padding: 0; }
-  .wireframing .wrap {
-    height: 200px;
-    /*  border: solid 2px; */ }
-    .wireframing .wrap .head {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box; }
-      .wireframing .wrap .head .arr_l {
-        padding-left: 20px;
-        -webkit-align-self: center;
-            -ms-flex-item-align: center;
-                align-self: center; }
-    .wireframing .wrap .arr_d {
-      padding-left: 225px; }
+  .wireframing .row .desk-disp-l,
+  .wireframing .row .desk-disp-d {
+    display: block; }
+  .wireframing .row .first-frame .arr_d {
+    display: block; }
+  .wireframing .row .arr_d {
+    margin: 20px 0; }
+  .wireframing .row .right-lg {
+    display: none; }
+  .wireframing .row img.dis {
+    margin-left: 100px; }
 
 .mockups {
   margin: 160px 0;
@@ -194,10 +170,56 @@ body {
   text-decoration: none;
   color: black; }
 
+body {
+  font-family: 'Open Sans'; }
+
 @media screen and (max-width: 992px) {
+  .how__we__work .line-hide-desk {
+    display: block; }
   .mockups h6, .mockups p {
     padding: 0; }
+  .wireframing h3, .wireframing p {
+    max-width: 100%;
+    margin: 0; }
   .wireframing .tab_hide {
     display: none; }
   .wireframing .desk_hide {
-    display: block; } }
+    display: block; }
+  .wireframing .row .tab-hide,
+  .wireframing .row .left-lg {
+    display: none; }
+  .wireframing .row .desktop-hide {
+    display: block; }
+  .wireframing .row .arr_l,
+  .wireframing .row .arr_d {
+    display: none;
+    margin: 20px 0; }
+  .wireframing .row .tab-disp-l,
+  .wireframing .row .tab-disp-d,
+  .wireframing .row .right-lg {
+    display: block; }
+  .wireframing .row img.dis {
+    margin-left: 120px; } }
+
+@media screen and (max-width: 768px) {
+  .wireframing .container {
+    padding: 0 0 0 40px; }
+  .wireframing h3 {
+    font-size: 35px;
+    margin-left: 0;
+    width: 50%; }
+  .wireframing p {
+    width: 50%; }
+  .wireframing h3, .wireframing p {
+    margin-left: 125px;
+    margin-bottom: 20px; }
+  .wireframing .img {
+    text-align: center; }
+  .wireframing .mob-disp-d {
+    display: block !important; }
+  .wireframing .mob-hide-l {
+    display: none !important; }
+  .wireframing .arr_d {
+    margin: 20px 0; }
+  .wireframing .arr_d img.dis {
+    margin-left: 0; } }

@@ -26,11 +26,14 @@
   .header .container .main .main-logo {
     padding-bottom: 130px; }
   .header .container .main h1 {
-    font-size: 45px; }
+    font-size: 45px;
+    padding-bottom: 25px; }
   .header .container .main h1, .header .container .main h6 {
     text-transform: uppercase;
     color: #ff3d42;
     font-weight: bold; }
+  .header .container .main h1, .header .container .main h6, .header .container .main p {
+    margin: 0; }
   .header .container .main .main_description {
     text-transform: uppercase;
     font-size: 25px;
@@ -45,33 +48,14 @@
     color: #102c3a;
     padding-bottom: 25px; }
   .header .container .main h6 {
-    font-size: 25px; }
+    font-size: 25px;
+    padding-bottom: 20px; }
   .header .container .main .booking_exp {
-    padding-bottom: 125px; }
-
-.wireframing {
-  background-color: #269; }
-
-.wireframing .green {
-  background: green;
-  height: 150px;
-  border: solid 1px blue; }
-
-.wireframing .row {
-  margin-bottom: 30px; }
-
-.wireframing h3,
-p {
-  color: white; }
-
-.mockups .col-lg-6 {
-  border: solid 1px black; }
-
-.mockups .img {
-  background-color: #269; }
+    padding-bottom: 105px; }
 
 .how__we__work {
-  padding-top: 100px; }
+  padding-top: 100px;
+  padding-bottom: 170px; }
   .how__we__work h1 {
     color: #102c3a;
     font-weight: bold;
@@ -80,8 +64,140 @@ p {
     padding-bottom: 50px;
     margin: 0; }
   .how__we__work .how__we__work__desc {
-    padding-bottom: 50px; }
+    padding-bottom: 30px; }
     .how__we__work .how__we__work__desc p {
       color: black;
       font-size: 12px;
-      margin: 0; }
+      margin: 0;
+      padding-bottom: 20px; }
+  .how__we__work .imgs_descr h4 {
+    color: #ff3d42;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    height: 44px;
+    margin-bottom: 44px; }
+  .how__we__work .imgs_descr p {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0; }
+  .how__we__work .col-lg-3 {
+    overflow: hidden; }
+    .how__we__work .col-lg-3 .imgs {
+      height: 50px;
+      margin-bottom: 50px; }
+    .how__we__work .col-lg-3 .col-4 {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+      overflow: hidden;
+      padding: 0; }
+    .how__we__work .col-lg-3 .dot {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center; }
+
+.wireframing {
+  background-color: #0275ea;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(left, rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  -webkit-background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
+          background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px; }
+
+body {
+  font-family: 'Open Sans'; }
+
+.wireframing {
+  padding: 100px 0 160px 0;
+  background-color: #0275ea;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.2) 1px, transparent 1px), -webkit-linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(left, rgba(255, 255, 255, 0.2) 1px, transparent 1px), -o-linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), -o-linear-gradient(left, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  -webkit-background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
+          background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px; }
+  .wireframing h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .wireframing p {
+    font-size: 15px; }
+  .wireframing h3, .wireframing p {
+    margin-left: 110px;
+    color: white;
+    width: 450px; }
+  .wireframing .desk_hide {
+    display: none; }
+  .wireframing .desk_hide {
+    display: none; }
+  .wireframing .first_row .col-md-8, .wireframing .first_row .col-md-4 {
+    padding: 0; }
+  .wireframing .sec_row {
+    margin-bottom: 80px; }
+    .wireframing .sec_row .col-lg-4 {
+      padding: 0; }
+  .wireframing .last_row .col-lg-6 {
+    padding: 0; }
+  .wireframing .third_row .col-lg-12 {
+    padding: 0; }
+  .wireframing .wrap {
+    height: 200px;
+    /*  border: solid 2px; */ }
+    .wireframing .wrap .head {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      .wireframing .wrap .head .arr_l {
+        padding-left: 20px;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center; }
+    .wireframing .wrap .arr_d {
+      padding-left: 225px; }
+
+.mockups {
+  margin: 160px 0;
+  padding-right: 15px; }
+  .mockups h6 {
+    margin-top: 10px;
+    color: #ff3d42;
+    font-weight: bold;
+    font-size: 28 px;
+    text-transform: uppercase; }
+  .mockups h6, .mockups p {
+    padding-left: 82px; }
+  .mockups .col-lg-7, .mockups .col-lg-5 {
+    padding: 0; }
+  .mockups p {
+    font-size: 20px; }
+  .mockups img {
+    max-width: 100%;
+    width: 100%;
+    height: auto; }
+  .mockups .ticket_info .ticket_desk {
+    font-size: 15px; }
+  .mockups .ticket_info .col-lg-4 {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center; }
+
+.footer a {
+  text-decoration: none;
+  color: black; }
+
+@media screen and (max-width: 992px) {
+  .mockups h6, .mockups p {
+    padding: 0; }
+  .wireframing .tab_hide {
+    display: none; }
+  .wireframing .desk_hide {
+    display: block; } }

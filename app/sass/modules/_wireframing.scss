@@ -1,6 +1,52 @@
 .wireframing {
+  .container {
+    margin-right: 100px;
+    padding-right: 110px;
+  }
+  padding: 100px 0 160px 0;
   background-color: #0275ea;
   background-image: linear-gradient(rgba(255, 255, 255, .2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .2) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, .1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
   background-size: 25px 25px, 25px 25px, 5px 5px, 5px 5px;
   background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+  h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p {
+    font-size: 15px;
+  }
+  h3, p {
+    margin-left: 110px;
+    color: white;
+    width: 450px;
+  }
+  .row {
+    .desktop-hide {
+      display: none;
+    }
+    .wrap img {
+      max-width: 100%;
+    }
+    .arr_l,
+    .arr_d {
+      display: none;
+    }
+    .desk-disp-l,
+    .desk-disp-d {
+      display: block;
+    }
+    .first-frame .arr_d {
+      display: block;
+    }
+    .arr_d {
+      margin: 20px 0;
+    }
+    .right-lg {
+      display: none;
+    }
+    img.dis {
+      margin-left: 100px;
+    }
+  }    
 }
